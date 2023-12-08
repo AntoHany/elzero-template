@@ -18,6 +18,7 @@
     background-repeat: no-repeat;
     height: 186px;
     width: 204px;
+    z-index: 1;
 }
 .dots-up
 {
@@ -1073,6 +1074,8 @@ header .mega-menu .links li:hover a::before
     background-color: var(--main-color);
     display: block;
     height: 100%;
+    width: 0;
+    transition: 1s linear;
 }
 /* END SKILLS */
 
@@ -1210,6 +1213,7 @@ header .mega-menu .links li:hover a::before
     display: flex;
     flex-direction: column;
     align-items: space-between;
+    
 }
 .events .info-box .info .counter .unit span:first-child
 {
@@ -1253,6 +1257,7 @@ header .mega-menu .links li:hover a::before
     margin: 100px auto; 
     padding: 30px;
     max-width: 60%;
+    z-index: 2;
 }
 @media (max-width: 767px)
 {
@@ -1270,6 +1275,7 @@ header .mega-menu .links li:hover a::before
     border: none;
     border-radius: 100px;
     caret-color: var(--main-color);
+    z-index: 4;
 }
 @media (max-width: 767px)
 {
